@@ -1,27 +1,41 @@
-# AplicacaoAngular17
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+# Projeto utilizando a versão 17 do angular
 
-## Development server
+Um projeto desenvolvido para aplicação do conhecimento na nova versão do angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Referência
 
-## Running unit tests
+ - [Angular Dev](https://angular.dev/)
+ - [Angular](https://angular.io/)
+ - [Json-Server](https://www.npmjs.com/package/json-server)
+ 
+ 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalação
 
-## Running end-to-end tests
+Primeiro é preciso  instalar o json-server para simulr um serviço http.
+Após baixar o projeto, e rodar o comando 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+  npm i json-server
+```
+Após instalado, é necessário criar um arquivo com o nome db.json, e criar a estrutura simulando retorno do back, conforme exemplo abaixo:
 
-## Further help
+{
+  "produtos": [
+    {
+      "title": "armario",
+      "id": 2
+    },
+  ]
+}
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Agora é possível rodar a aplicação com o comando:
+
+```bash
+  ng serve
+```
