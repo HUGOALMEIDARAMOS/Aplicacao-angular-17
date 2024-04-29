@@ -1,64 +1,16 @@
 {
-  "produtos":[
+  "produtos": [
     {
-      "id": "SM-G9730Z",
-      "title": "Samsung Galaxy S10e - 128GB - Preto"
-      },
-      {
-      "id": "N551UA-BR786W",
-      "title": "ASUS VivoBook 15 - Intel Core i5 - 8GB RAM - 256GB SSD - FHD - Prata"
-      },
-      {
-      "id": "42MM-GPS-BLACK",
-      "title": "Apple Watch Series 7 - GPS - 42mm - Preto"
-      },
-      {
-      "id": "WF-1000XM4-B",
-      "title": "Sony WF-1000XM4 - Preto"
-      },
-      {
-      "id": "55QNED99NA",
-      "title": "LG QNED99 - 55 polegadas - 8K Smart TV"
-      },
-      {
-      "id": "EOS-R6",
-      "title": "Canon EOS R6 - Corpo"
-      },
-      {
-      "id": "PS5-CFI-1100A",
-      "title": "PlayStation 5 - Edição Digital"
-      },
-      {
-      "id": "iRobot-Roomba-i7",
-      "title": "iRobot Roomba i7 - Aspirador de Robô"
-      },
-      {
-      "id": "CM4001",
-      "title": "Oster Prima Latte - Cafeteira Elétrica"
-      },
-      {
-      "id": "AF180",
-      "title": "Philips Airfryer Viva - 1,8L - Preto"
-      },
-      {
-      "id": "LIQ800",
-      "title": "Oster Versa - Liquidificador com Jarra de Vidro - 800W"
-      },
-      {
-      "id": "ME306",
-      "title": "Brastemp Gourmand - Micro-ondas 32L - Inox"
-      },
-      {
-      "id": "WD11EABP44",
-      "title": "Samsung Lavadora de Roupas 11kg - Ecobubble - Branco"
-      },
-      {
-      "id": "BRB45AKANA",
-      "title": "Brastemp Inverse Inverse 443 litros - Frost Free - Inox"
-      },
-      {
-      "id": "56FEX",
-      "title": "Consul 5 Bocas com Mesa de Vidro - Inox"
-      }
+      "title": "armario",
+      "id": 2
+    },
+    {
+      "title": "som",
+      "id": 3
+    },
+    {
+      "title": "",
+      "id": 4
+    }
   ]
 }
